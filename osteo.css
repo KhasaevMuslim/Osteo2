@@ -1,0 +1,104 @@
+html,
+body{
+    background-color: #287683;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.header__content-img1{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    z-index: 2;
+}
+
+.header__content-menu{
+    color: #ffffff;
+    width: 50vw;
+    height: 50px;
+    font-size: 32px;
+    border-radius: 25px;
+    position: absolute;
+    left: 260px;
+    top: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    list-style-type: none;
+    z-index: 1;
+}
+
+
+
+nav ul li ul{
+    position: absolute;
+    width: 380px;
+    height: 180px;
+    background: #ffffff;
+    color: black;
+    display: none;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.header__content-table1:hover,
+.header__content-table2:hover,
+.header__content-table3:hover{
+    color: rgb(209, 209, 209);
+    
+}
+
+nav ul li:hover > ul{
+    display: flex;
+    border-radius: 25px;
+    margin: 7px;
+    overflow: hidden;
+}
+
+/* MAIN! */
+
+.content__name{
+    position: absolute;
+    top: 40vh;
+    left: 340px;
+}
+
+.content__name-h1{
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 3px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.content__name-button{
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 25px;
+    width: 300px;
+    height: 70px;
+    font-size: 32px;
+    font-family: inherit;
+    position: relative;
+}
+
+.content__name-button:hover{
+    background-color: rgb(209, 209, 209);
+}
+
+.footer__content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    width: 100vw;
+    border-top: 1px solid #ffffff;
+    display: flex;
+
+}
